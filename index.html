@@ -40,13 +40,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#about">Education & Experience</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Resume</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -61,38 +61,141 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Hello World!</h1>
-                <h1>I'm Christian,</h1>
-                <h1>Junior Software Developer</h1>
+                <h1>I'm Christian</h1>
+                <h1>and I like to solve problems</h1>
                 <hr>
                 <p></p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Let's Go!</a>
+                <a href="#projects" class="btn btn-primary btn-xl page-scroll">Let's Go!</a>
             </div>
         </div>
     </header>
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Education & Experience</h2>
-                    <hr class="light">
-                    <p class="text-faded"></p>
-                    <p>Hello, my name is Christian Nagal and I am a local software developer with a background in HTML5/CSS3, JavaScript, AngularJS, C#, .NET, SQL, and among other technologies. I have attended and graduated from Origin Code Academy, a top ranked coding school in San Diego, where the curriculum taught full stack web development. Some of my projects include a web game based on the board game Munchkins, and a dynamic web application similar to GrubHub. I worked by myself as well as with a team while participating in daily agile and scrum practices.</p>
-                    <p>Prior to my pursuit in coding, I went to San Diego Mesa Community College studying mathematics while working in the restaurant and customer service industry. My duties at work included multi-tasking full service of guests and quality assurance in a fast-paced environment. Through my guest service experience, my communication and team cohesive skills advanced. When working with a scrum master and product owner/client, we reach clarification on project goals and expectations.</p>
-                    <p>I have an ever growing passion for programming and the development process. I enjoy the challenge of new projects and learning new technologies to expand my knowledge and experience. Hard work is my forte and self-motivation drives me forward to a future in software development.</p>
-                    <!--  <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a> -->
+    <!-- Projects Start-->
+    <section class="no-padding" id="projects">
+        <aside class="bg-dark">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Projects</h2>
+            </div>
+        </aside>
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://imgur.com/xKZYWjV.png" class="portfolio-box">
+                        <img src="http://imgur.com/xKZYWjV.png" class="img-responsive" alt="" style="height: 270px;width: 100%;" />
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Bunchkins
+                                </div>
+                                <div class="project-category text-faded">
+                                    <p>Bunchkins is an online multiplayer dungeon adventure game based off the card game, Munchkins. Explore the dungeon looking for treasure, battling monsters, betray your friends, and obtain glory.</p>
+                                    <p>Technologies Used: SQL, Entity Framework, SignalR, C#, AngularJS, HTML, CSS/Bulma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://imgur.com/SmyPgvj.png" class="portfolio-box">
+                        <img src="http://imgur.com/SmyPgvj.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    NoshSpot
+                                </div>
+                                <div class="project-category text-faded">
+                                    <p>Noshspot is a dynamic web application similar to GrubHub that deals with food delivery to clients. The application has an Administrative site, a Client site, and a Restaurant site. Noshspot was built with a team of 9 using scrum. The Stripe API was used to take care of payments.</p>
+                                    <p>Technologies Used: SQL, C#, AngularJS, Web API, HTML, CSS/Bulma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://imgur.com/9mWXYxg.png" class="portfolio-box">
+                        <img src="http://imgur.com/9mWXYxg.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Classroom Manager
+                                </div>
+                                <div class="project-category text-faded">
+                                    <p>Application that manages a database of students and projects. Students and projects can be assigned to each other as well as information can be edited</p>
+                                    <p>Technologies Used: HTML, CSS/Bootstrap, AngularJS, C#, EntityFramework, .NET Framework, SQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://imgur.com/TPU2uzO.png" class="portfolio-box">
+                        <img src="http://imgur.com/TPU2uzO.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Budget Tracker
+                                </div>
+                                <div class="project-category text-faded">
+                                    <p>Financial application that keeps track of your income and expenses, then calculates the net total</p>
+                                    <p>Technologies Used: HTML, CSS/Bootstrap, AngularJS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://imgur.com/ccXW5ww.png" class="portfolio-box">
+                        <img src="http://imgur.com/ccXW5ww.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Crime Watch San Diego
+                                </div>
+                                <div class="project-category text-faded">
+                                    <p>Application that utilizes google maps to mark and display a location where various crimes occurred in downtown San Diego</p>
+                                    <p>Technologies Used: HTML, CSS/Bootstrap, AngularJS, JSON</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://imgur.com/PQ5dgYP.png" class="portfolio-box">
+                        <img src="http://imgur.com/PQ5dgYP.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Origin Weather Application
+                                </div>
+                                <div class="project-category text-faded">
+                                    <p>Application that uses OpenWeatherMap.org's web API to show current weather data of a city, along with the current date, time and search history of cities</p>
+                                    <p>Technologies Used: HTML, CSS/Bootstrap, AngularJS, Web API</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Resume -->
-    <section id="services">
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>More Projects On My GitHub Account</h2>
+                <a href="https://github.com/CNagal" class="btn btn-default btn-xl sr-button">GitHub
+                <i class="fa fa-github fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </aside>
+    <!-- Projects End -->
+    <!-- Resume Start-->
+    <section id="resume">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Resume</h2>
                     <hr class="primary">
                 </div>
-                <!-- <img src="C:\Users\chris\Desktop\resume.jpg" width="100%" alt="Resume"> -->
                 <div class="text-center">
                     <h2>Christian Nagal</h2>
                     <h3>Full Stack Junior Software Developer</h3>
@@ -101,13 +204,15 @@
                     <i class="fa fa-home fa-2x"></i> San Diego, CA
                 </div>
                 <div class="col-lg-6 text-center">
-                    <i class="fa fa-linkedin fa-2x"></i> https://linkedin.com/in/christian-nagal-01
+                    <i class="fa fa-linkedin fa-2x"></i>
+                    <a href="https://linkedin.com/in/christian-nagal-01">LinkedIn Profile</a>
                 </div>
                 <div class="col-lg-6 text-center">
                     <i class="fa fa-phone fa-2x"></i> 619-962-4337 | christiannagal@gmail.com
                 </div>
                 <div class="col-lg-6 text-center">
-                    <i class="fa fa-user fa-2x"></i> https://cnagal.github.io
+                    <i class="fa fa-user fa-2x"></i>
+                    <a href="https://cnagal.github.io">Personal Website</a>
                 </div>
                 <div class="col-lg-12 primary">
                     <div class="col-lg-12">
@@ -140,7 +245,7 @@
                         <p></p>
                         <p>• Frameworks: AngularJS, Entity Framework, .NET Framework, ASP Web API</p>
                         <p></p>
-                        <p>• Tools/Libraries/Tech: Visual Studio, REST APIs, OOP, Agile & Scrum, Bower, Azure Cloud Services, Heroku</p>
+                        <p>• Tools/Libraries/Tech: Visual Studio, REST APIs, OOP, Agile & Scrum, Bower, Azure Cloud Services, Heroku, WordPress</p>
                         <hr>
                         <h3 class="text-primary">Projects</h3>
                         <p>• NoshSpot- AngularJS, C#, Entity Framework, SQL, HTML/CSS, Bulma.io
@@ -208,126 +313,23 @@
         </div>
     </section>
     <!-- Resume End -->
-    <!-- Portfolio -->
-    <section class="no-padding" id="portfolio">
-        <aside class="bg-dark">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Projects</h2>
-            </div>
-        </aside>
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://imgur.com/xKZYWjV.png" class="portfolio-box">
-                        <img src="http://imgur.com/xKZYWjV.png" class="img-responsive" alt="" style="height: 270px;width: 100%;" />
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Bunchkins
-                                </div>
-                                <div class="project-category text-faded">
-                                    <p>Bunchkins is an online multiplayer dungeon adventure game based off the card game, Munchkins. Explore the dungeon looking for treasure, battling monsters, betray your friends, and obtain glory.</p>
-                                    <p>Technologies Used: SQL, Entity Framework, SignalR, C#, AngularJS, HTML, CSS/Bulma</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://imgur.com/SmyPgvj.png" class="portfolio-box">
-                        <img src="http://imgur.com/SmyPgvj.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    NoshSpot
-                                </div>
-                                <div class="project-category text-faded">
-                                    <p>Noshspot is a dynamic web application similar to GrubHub that deals with food delivery to clients. The application has an Administrative site, a Client site, and a Restaurant site. Noshspot was built with a team of 9 using scrum. The Stripe API was used to take care of payments.</p>
-                                    <p>Technologies Used: SQL, C#, AngularJS, Web API, HTML, CSS/Bulma</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://imgur.com/PQ5dgYP.png" class="portfolio-box">
-                        <img src="http://imgur.com/PQ5dgYP.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Origin Weather Application
-                                </div>
-                                <div class="project-category text-faded">
-                                    <p>Application that uses OpenWeatherMap.org's web API to show current weather data of a city, along with the current date, time and search history of cities</p>
-                                    <p>Technologies Used: HTML, CSS/Bootstrap, AngularJS, Web API</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://imgur.com/9P0YLq7.png" class="portfolio-box">
-                        <img src="http://imgur.com/9P0YLq7.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Budget Tracker
-                                </div>
-                                <div class="project-category text-faded">
-                                    <p>Financial application that keeps track of your income and expenses, then calculates the net total</p>
-                                    <p>Technologies Used: HTML, CSS/Bootstrap, AngularJS</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="http://imgur.com/ccXW5ww.png" class="portfolio-box">
-                        <img src="http://imgur.com/ccXW5ww.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Crime Watch San Diego
-                                </div>
-                                <div class="project-category text-faded">
-                                    <p>Application that utilizes google maps to mark a location where various crimes occurred</p>
-                                    <p>Technologies Used: HTML, CSS/Bootstrap, AngularJS, JSON</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="http://imgur.com/xKZYWjV.png" class="img-responsive" alt="" style="height:270px;width: 100%;" />
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    San Diego Top Spots
-                                </div>
-                                <div class="project-category text-faded">
-                                    <p></p>
-                                    <p>Technologies Used: HTML, CSS/Bootstrap, jQuery, JSON</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+    <!-- Education & Experience Start -->
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Education & Experience</h2>
+                    <hr class="light">
+                    <p class="text-faded"></p>
+                    <p>Hi, my name is Christian Nagal and I am a local software developer with a background in HTML5/CSS3, JavaScript, AngularJS, C#, .NET, SQL, and among other technologies. I have attended and graduated from Origin Code Academy, a top ranked coding school in San Diego, where the curriculum taught full stack web development. Some of my projects include a web game based on the board game Munchkins, and a dynamic web application similar to GrubHub. I worked by myself as well as with a team while practicing daily agile and scrum methodologies.</p>
+                    <p>Prior to my pursuit in coding, I went to San Diego Mesa Community College studying mathematics while working in the restaurant and customer service industry. My duties at work included multi-tasking full service of guests and quality assurance in a fast-paced environment. Through my guest service experience, my communication and team cohesive skills advanced. When working with a scrum master and product owner/client, we reach clarification on project goals and expectations.</p>
+                    <p>I have an ever growing passion for programming and the development process. I enjoy the challenge of new projects and learning new technologies to expand my knowledge and experience. Hard work is my forte and self-motivation drives me forward to a future in software development.</p>
                 </div>
             </div>
         </div>
     </section>
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>More Projects On My GitHub Account</h2>
-                <a href="https://github.com/CNagal" class="btn btn-default btn-xl sr-button">GitHub
-                <i class="fa fa-github fa-2x"></i>
-                </a>
-            </div>
-        </div>
-    </aside>
-    <!-- Portfolio End -->
-    <!-- Contact -->
+    <!-- Education & Experience End -->
+    <!-- Contact Start-->
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -367,6 +369,7 @@
             </div>
         </div>
     </section>
+    <!-- Contact End -->
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
